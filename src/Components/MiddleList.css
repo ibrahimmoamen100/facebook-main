@@ -2,7 +2,7 @@ ul.middle_list_icons {
   margin-bottom: 0;
 }
 .middle_list_icons {
-  display: flex !important;
+  display: flex;
   flex-direction: row !important;
   justify-content: space-between !important;
   /* background-color: #eee; */
