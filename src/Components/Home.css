@@ -25,7 +25,7 @@
 .mid-section {
   background: var(--white-space);
   flex: 1;
-  max-width: 43rem;
+  max-width: 45rem;
   min-width: 280px;
 
   /* min-width: 30rem; */
