@@ -47,6 +47,6 @@ ul.middle_list_icons {
 }
 @media (max-width: 600px) {
   .middle_list_icons {
-    display: none;
+    display: none !important;
   }
 }
