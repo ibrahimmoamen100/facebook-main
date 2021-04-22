@@ -1,0 +1,41 @@
+.MenuSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 95%;
+  /* margin: auto; */
+}
+
+.menu_list {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 1rem 0rem;
+  width: 100%;
+}
+.menu_list > a {
+  /* background: green; */
+  margin: 0.08rem 0.2rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  width: 100%;
+
+  /* background: #dddd; */
+}
+.menu_list > a:hover {
+  background: #dddd;
+}
+.menu_list > a > img {
+  width: 2.3rem;
+  margin-right: 0.6rem;
+}
+.menu_list > a > span {
+  font-weight: bold;
+  font-size: 0.95rem;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.6px;
+}

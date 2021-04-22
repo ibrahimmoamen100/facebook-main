@@ -1,0 +1,33 @@
+.container-mid {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px 15px;
+  /* background-color: #ddd; */
+  /* max-width: 30em; */
+  /* min-width: 29em; */
+  /* margin: 1rem auto; */
+}
+
+@media (max-width: 1000px) {
+  .mid-section {
+    min-width: 0rem;
+  }
+}
+@media (max-width: 800px) {
+  .mid-section {
+    min-width: 0rem;
+  }
+  .container-mid {
+    margin: 4px 5px;
+  }
+}
+@media (max-width: 282px) {
+  .mid-section {
+    min-width: 0rem;
+  }
+  .container-mid {
+    margin: 1px 1px;
+  }
+}

@@ -1,0 +1,20 @@
+.freinds-section {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-shrink: 2;
+  /* flex-grow: 0.5; */
+  /* width: 22rem;
+  max-width: 22rem;
+  min-width: 15rem; */
+  width: 100%;
+  background: red;
+}
+
+@media (max-width: 322px) {
+  .freinds-section {
+    width: 0rem;
+    max-width: 0rem;
+    min-width: 0rem;
+  }
+} ;
