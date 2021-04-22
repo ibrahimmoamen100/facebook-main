@@ -34,7 +34,7 @@
 .last-section {
   flex: 0.5;
   width: 23rem;
-  max-width: 23rem;
+  max-width: 320px;
   min-width: 280px;
   /* height: 200px; */
   display: flex;
