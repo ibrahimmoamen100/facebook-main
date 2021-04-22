@@ -19,8 +19,8 @@
 .img-inpt > .user-img {
   min-width: 38px;
   min-height: 38px;
-  max-height: 45x;
-  max-width: 45px;
+  max-height: 43x;
+  max-width: 43px;
   background: white;
   border-radius: 50%;
   flex: 0.1;
@@ -37,7 +37,7 @@
   object-fit: content;
 }
 .img-inpt > input {
-  height: 45px;
+  height: 43px;
   border-radius: 5rem;
   padding: 2px 10px;
   outline: none;
