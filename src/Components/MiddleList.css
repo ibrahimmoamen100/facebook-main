@@ -8,7 +8,7 @@ ul.middle_list_icons {
   /* background-color: #eee; */
   margin: auto;
   flex: 1.5 !important;
-  max-width: 650px;
+  max-width: 43rem;
 }
 
 .middle_list_icons > a {
