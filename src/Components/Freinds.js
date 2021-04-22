@@ -8,21 +8,17 @@ export default class Freinds extends Component {
     data: [],
   };
   componentDidMount() {
-    axios.get("https://jsonplaceholder.typicode.com/users").then((response) => {
-      this.setState({
-        data: response.data,
-      });
-    });
+    // axios.get("https://jsonplaceholder.typicode.com/users").then((response) => {
+    //   this.setState({
+    //     data: response.data,
+    //   });
+    // });
   }
   render() {
     return (
-      <div>
+      <div className="freinds_part">
         <h1>this Freinds Section</h1>
-        <div>
-          {this.state.data.map((users) => (
-            <div>{users.name}</div>
-          ))}
-        </div>
+        <div></div>
       </div>
     );
   }

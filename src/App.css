@@ -9,6 +9,7 @@
 .App {
   background-color: #f0f2f5;
   min-width: 320px;
+  max-width: 1920px;
   /* width: 100vw; */
 }
 
