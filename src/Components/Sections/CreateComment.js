@@ -10,7 +10,10 @@ export default function CreateComment() {
         <div className="user-img">
           <img src={user} />
         </div>
-        <input type="text" placeHolder="What is on your mind , Ahmed?" />
+        <textarea
+          type="text"
+          placeHolder="What is on your mind , Ahmed?"
+        ></textarea>
       </div>
     </div>
   );
