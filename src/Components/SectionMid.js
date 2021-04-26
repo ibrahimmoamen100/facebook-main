@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import CreateComment from "./Sections/CreateComment";
+import CommentPosted from "./Sections/CommentPosted";
 import "./SectionMid.css";
 
 export default class SectionMid extends Component {
@@ -7,6 +8,7 @@ export default class SectionMid extends Component {
     return (
       <div className="container-mid">
         <CreateComment />
+        <CommentPosted />
       </div>
     );
   }

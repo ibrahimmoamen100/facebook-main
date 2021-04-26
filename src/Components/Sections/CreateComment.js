@@ -5,8 +5,14 @@ import "../../App.css";
 import { render } from "@testing-library/react";
 
 export default class CreateComment extends React.Component {
+  state = {
+    value: "",
+  };
   handleSubmit = (e) => {
     e.preventDefault();
+  };
+  handleChange = () => {
+    console.log("hello");
   };
   render() {
     return (
@@ -22,9 +28,15 @@ export default class CreateComment extends React.Component {
         </div>
         <div className="image-post">
           <div className="img-btn">
-            <input name="img-vid" id="img-vid" type="file" />
+            <input
+              ref="{any thing}" // any thing
+              onChange={this.handleChange}
+              name="img-vid"
+              id="img-vid"
+              type="file"
+            />
             <label className="btn " name="img-vid" for="img-vid">
-              <i class="far fa-images"></i>
+              <i className="far fa-images"></i>
               <span> Photo/Video </span>
             </label>
           </div>
