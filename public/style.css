@@ -15,3 +15,8 @@
   background: #ccc;
   border-radius: 5rem;
 }
+
+html,
+body {
+  overflow-x: hidden;
+}

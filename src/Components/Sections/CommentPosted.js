@@ -28,17 +28,13 @@ export default function CommentPosted() {
         </div>
       </div>
       <div className="comment-content">
-        <span>
-          lorem ipsum dolor sit amet, consectetur adiplorem ipsum dolor sit
-          amet, consectetur adip lorem ipsum dolor sit amet, consectetur adip
-          lorem ipsum dolor sit amet, consectetur adip
-        </span>
+        <span>😂 تعا اشب شاي </span>
         <img src={user} />
       </div>
       <div className="like-comment">
         <div className="likes" data-tip data-for="like">
+          <img src={haha} />
           <img src={like} />
-          <img src={angry} />
 
           <ReactTooltip id="like" place="bottom" effect="solid">
             Ahmed Hamdy <br></br> Ahmed Hamdy <br></br> Ahmed Hamdy <br></br>
@@ -47,6 +43,22 @@ export default function CommentPosted() {
           <span style={({ color: "gray" }, { marginLeft: "3px" })}> 5 </span>
         </div>
         <span> 17 Comments </span>
+      </div>
+      <div className="do-like-comment">
+        <div className="do-like">
+          <i className="far fa-thumbs-up"></i>
+          <span> Like</span>
+        </div>
+        <div className="do-comment">
+          <i className="far fa-comment"></i>
+
+          <span> Comment</span>
+        </div>
+        <div className="do-share">
+          <i className="fas fa-share"></i>
+
+          <span> Share</span>
+        </div>
       </div>
     </div>
   );

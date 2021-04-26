@@ -78,9 +78,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 0.1s;
 }
 .option-comment:hover {
   background-color: #eee;
+  transition: 0.1s linear;
 }
 .option-comment > i {
   font-size: 1rem;
@@ -109,6 +111,7 @@ video {
   flex-direction: row;
   justify-content: space-between;
   padding: 0px 5px;
+  position: relative;
 }
 
 .like-comment img {
@@ -116,7 +119,36 @@ video {
   height: 20px;
   cursor: pointer;
 }
+.like-comment span {
+  color: gray;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.like-comment span:hover {
+  text-decoration: underline !important;
+}
 
 #like {
   background: rgba(0, 0, 0, 0.678);
+}
+
+.do-like-comment {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.39);
+  border-top: 1px solid rgba(128, 128, 128, 0.39);
+  padding: 5px 0px;
+  margin-top: 8px;
+}
+.do-like-comment > div {
+  flex: 1;
+  padding: 6px 2px;
+  text-align: center;
+  margin: 0px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.do-like-comment > div:hover {
+  background: #eee;
 }
