@@ -3,8 +3,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  width: 95%;
+  /* width: 95%; */
+  width: clamp(200px, 18rem, 23rem);
   /* margin: auto; */
+  /* overflow: hidden; */
 }
 
 .menu_list {

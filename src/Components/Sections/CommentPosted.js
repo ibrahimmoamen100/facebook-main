@@ -8,6 +8,7 @@ import wow from "../../image/wow.svg";
 import care from "../../image/care.svg";
 import { NavLink } from "react-router-dom";
 import ReactTooltip from "react-tooltip";
+import "../../App.css";
 
 export default function CommentPosted() {
   return (

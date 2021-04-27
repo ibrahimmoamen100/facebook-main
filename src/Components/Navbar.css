@@ -13,7 +13,9 @@ body {
   text-align: center;
   box-shadow: 1px 1px 5px rgb(189, 189, 189);
   z-index: 500 !important;
-  min-width: 320px;
+  min-width: 270px;
+  position: fixed;
+  top: 0px;
 }
 
 .logo_search {
@@ -143,8 +145,7 @@ body {
 
 @media (max-width: 800px) {
   .navbar_top {
-    width: 100vw;
-    padding: 0;
+    /* padding: 0; */
     /* background: red; */
   }
   .search_part {
@@ -191,7 +192,10 @@ body {
 
 @media (max-width: 322px) {
   .navbar_top {
-    padding: 0.1rem;
+    padding: 0.5rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
   }
   .search_part {
     min-width: var(--size-icons);

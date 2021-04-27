@@ -9,6 +9,7 @@
   min-width: 15rem; */
   width: 100%;
   background: red;
+  margin-top: var(--mg-fixed);
 }
 
 @media (max-width: 322px) {

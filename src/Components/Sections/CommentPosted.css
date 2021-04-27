@@ -10,7 +10,7 @@
   background: rgb(255, 255, 255);
   box-shadow: 2px 2px 5px rgba(204, 204, 204, 0.404);
   margin-top: 20px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .comment-titlebar {
@@ -93,17 +93,18 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .comment-content > span {
   padding: 8px;
+  font-size: 1rem;
 }
 .comment-content > img,
 video {
   object-fit: cover;
   width: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .like-comment {
@@ -149,6 +150,23 @@ video {
   cursor: pointer;
   border-radius: 5px;
 }
+
+.do-like-comment > div > * {
+  font-size: 1rem;
+}
 .do-like-comment > div:hover {
   background: #eee;
 }
+
+@media (max-width: 320px) {
+  .do-like-comment > div > * {
+    font-size: var(--fs-sm);
+  }
+  .like-comment span {
+    font-size: var(--fs-sm);
+  }
+  .comment-content > span {
+    padding: 8px;
+    font-size: var(--fs-sm);
+  }
+} ;
