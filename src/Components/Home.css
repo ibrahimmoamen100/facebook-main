@@ -10,6 +10,7 @@
   padding: 2px;
   position: relative;
   margin-top: var(--mg-fixed);
+  display: flex;
 }
 
 .first-section {
