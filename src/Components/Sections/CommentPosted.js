@@ -14,7 +14,7 @@ export default function CommentPosted() {
   return (
     <div className="comment-posted">
       <div className="comment-titlebar">
-        <NavLink to="/Freinds" className="user-img">
+        <NavLink to="/MyPage" className="user-img">
           <img src={user} />
         </NavLink>
         <div className="username-time">

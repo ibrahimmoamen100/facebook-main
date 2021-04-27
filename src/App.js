@@ -11,6 +11,7 @@ import Group from "./Components/Group";
 import Navbar from "./Components/Navbar";
 import MenuSection from "./Components/MenuSection";
 import MenuPage from "./Components/MenuPage";
+import MyPage from "./Components/MyPage";
 import Error from "./Components/Error";
 import $ from "jquery";
 import "./App.css";
@@ -32,6 +33,7 @@ class App extends Component {
               <Route path="/Marketplace" component={Marketplace} />
               <Route path="/Group" component={Group} />
               <Route path="/MenuPage" component={MenuPage} />
+              <Route path="/MyPage" component={MyPage} />
               <Route path="/:error_page" component={Error} />
             </Switch>
           </div>

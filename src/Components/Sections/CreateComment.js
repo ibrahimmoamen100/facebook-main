@@ -1,6 +1,8 @@
 import React from "react";
 import "./CreateComment.css";
 import user from "../../image/cc.jpg";
+import { NavLink } from "react-router-dom";
+
 import "../../App.css";
 import { render } from "@testing-library/react";
 
@@ -18,9 +20,9 @@ export default class CreateComment extends React.Component {
     return (
       <form onSubmit={this.handleSubmit} className="create-comment">
         <div className="img-inpt">
-          <div className="user-img">
+          <NavLink to="/MyPage" className="user-img">
             <img src={user} />
-          </div>
+          </NavLink>
           <textarea
             type="text"
             placeHolder="What is on your mind , Ahmed?"

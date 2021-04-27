@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import { Router, NavLink, Link } from "react-router-dom";
 import statistics from "../image/statistics.png";
 import heart from "../image/heart.png";
@@ -8,6 +8,8 @@ import watch from "../image/watch.png";
 import massenger from "../image/massenger.png";
 import marketplace from "../image/marketplace.png";
 import group from "../image/group.png";
+import elzero from "../image/elzero.jpg";
+import unique from "../image/unique.jpg";
 import "./MenuSection.css";
 
 export default function MenuSection() {
@@ -43,6 +45,25 @@ export default function MenuSection() {
           <img src={group} />
           <span>Group</span>
         </NavLink>
+        <span className="short-cut-title"> Your Shortcuts</span>
+        <a
+          href="https://www.facebook.com/groups/ElzeroWebSchool"
+          className="elzero-short"
+        >
+          <div>
+            <img src={elzero} />
+          </div>
+          <span>Elzero Web School</span>
+        </a>
+        <a
+          href="https://www.facebook.com/groups/UniqueCoderzAcademy"
+          className="unique-short"
+        >
+          <div>
+            <img src={unique} />
+          </div>
+          <span>Unique Coderz Acadimy</span>
+        </a>
       </ul>
       {/* <h1>Hello from menu</h1> */}
     </div>
