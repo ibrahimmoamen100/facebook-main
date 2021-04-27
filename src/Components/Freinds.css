@@ -11,7 +11,7 @@
   /* background: red; */
   margin-top: var(--mg-fixed);
   display: flex;
-  position: fixed;
+  /* position: fixed; */
   top: 20px;
   padding: 0 1rem;
   background: var(--white-space);
