@@ -1,6 +1,5 @@
-.ss {
+.home_section {
   width: 100%;
-  display: flex;
   flex-direction: row;
   justify-content: space-between;
   /* align-items: center; */
@@ -10,7 +9,7 @@
   padding: 2px;
   position: relative;
   margin-top: var(--mg-fixed);
-  /* display: flex; */
+  display: flex;
 }
 
 .first-section {
