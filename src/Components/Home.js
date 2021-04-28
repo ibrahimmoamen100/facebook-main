@@ -7,7 +7,7 @@ import Freinds from "./Freinds";
 export default class Home extends React.Component {
   render() {
     return (
-      <div className="home_sections">
+      <div className="home_sections ss">
         {/* <h1>hello this Home Section</h1> */}
         {/* <div className="App">
           <button onClick={this.increase}>Increase</button>
