@@ -20,7 +20,7 @@ export default class Home extends React.Component {
   };
   render() {
     return (
-      <div className="home_section">
+      <div className="home_section" style={{ display: "flex" }}>
         {/* <h1>hello this Home Section</h1> */}
         {/* <div className="App">
           <button onClick={this.increase}>Increase</button>
