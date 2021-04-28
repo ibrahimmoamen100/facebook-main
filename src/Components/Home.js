@@ -5,19 +5,6 @@ import "./../App.css";
 import SectionMid from "./SectionMid";
 import Freinds from "./Freinds";
 export default class Home extends React.Component {
-  state = {
-    count: 0,
-  };
-  decrease = () => {
-    this.setState({
-      count: this.state.count <= 0 ? this.state.count : this.state.count - 1,
-    });
-  };
-  increase = () => {
-    this.setState({
-      count: this.state.count >= 10 ? this.state.count : this.state.count + 1,
-    });
-  };
   render() {
     return (
       <div className="home_sections">
