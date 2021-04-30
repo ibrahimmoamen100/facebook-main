@@ -4,10 +4,26 @@ import "./Home.css";
 import "./../App.css";
 import SectionMid from "./SectionMid";
 import Freinds from "./Freinds";
+import styled from "styled-components";
+
+const HomeSection = styled.div`
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items: center; */
+  max-width: 1920px;
+  min-width: 280px;
+  margin: auto;
+  padding: 2px;
+  position: relative;
+  margin-top: var(--mg-fixed);
+  /* display: flex; */
+`;
 export default class Home extends React.Component {
   render() {
     return (
-      <div className="home_sections ss">
+      <HomeSection className="home_section">
         {/* <h1>hello this Home Section</h1> */}
         {/* <div className="App">
           <button onClick={this.increase}>Increase</button>
@@ -24,7 +40,7 @@ export default class Home extends React.Component {
         <div className="last-section">
           <Freinds />
         </div>
-      </div>
+      </HomeSection>
     );
   }
 }

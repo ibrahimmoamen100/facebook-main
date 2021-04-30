@@ -1,18 +1,3 @@
-.ss {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  /* align-items: center; */
-  max-width: 1920px;
-  min-width: 280px;
-  margin: auto;
-  padding: 2px;
-  position: relative;
-  margin-top: var(--mg-fixed);
-  /* display: flex; */
-}
-
 .first-section {
   /* background: rgb(172, 98, 98); */
   /* flex-shrink: 2;
