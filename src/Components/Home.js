@@ -18,7 +18,7 @@ const HomeSection = styled.div`
   position: relative;
   margin-top: var(--mg-fixed);
 `;
-const firstSection = styled.div`
+const FirstSection = styled.div`
   justify-content: flex-start;
   align-self: flex-start;
 `;
@@ -32,9 +32,9 @@ export default class Home extends React.Component {
           <div>{this.state.count}</div>
           <button onClick={this.decrease}>Decrease </button>
         </div> */}
-        <firstSection className="first-section">
+        <FirstSection className="first-section">
           <MenuSection />
-        </firstSection>
+        </FirstSection>
 
         <div className="mid-section">
           <SectionMid />
