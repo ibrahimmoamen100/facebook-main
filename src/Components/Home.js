@@ -2,7 +2,6 @@ import React from "react";
 import MenuSection from "./MenuSection";
 import "./../App.css";
 import "./Home.css";
-
 import SectionMid from "./SectionMid";
 import Freinds from "./Freinds";
 import styled from "styled-components";
@@ -15,7 +14,7 @@ const HomeSection = styled.div`
   max-width: 1920px;
   min-width: 280px;
   margin: auto;
-  padding: 10px;
+  padding: clamp(5px, 3px, 2px);
   position: relative;
   margin-top: var(--mg-fixed);
 `;
