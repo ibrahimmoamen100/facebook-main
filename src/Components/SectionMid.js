@@ -9,9 +9,6 @@ export default class SectionMid extends Component {
       <div className="container-mid">
         <CreateComment />
         <CommentPosted />
-        <CommentPosted />
-        <CommentPosted />
-        <CommentPosted />
       </div>
     );
   }

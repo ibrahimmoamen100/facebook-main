@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
-import user from "../image/cc.jpg";
+import user from "../image/my.jpg";
 import "../App.css";
 
 import "./Freinds.css";
@@ -39,19 +39,19 @@ export default class Freinds extends Component {
             <div className="freinds-img-part">
               <img src={user} />
             </div>
-            <span>Ahmed Hamdy</span>
+            <span>My Freind</span>
           </div>
           <div className="freind-item">
             <div className="freinds-img-part">
               <img src={user} />
             </div>
-            <span>Ahmed Hamdy</span>
+            <span> My Freind</span>
           </div>
           <div className="freind-item">
             <div className="freinds-img-part">
               <img src={user} />
             </div>
-            <span>Ahmed Hamdy</span>
+            <span>My Freind</span>
           </div>
         </div>
       </div>
