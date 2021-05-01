@@ -11,14 +11,12 @@ const HomeSection = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /* align-items: center; */
   max-width: 1920px;
   min-width: 280px;
   margin: auto;
   padding: 2px;
   position: relative;
   margin-top: var(--mg-fixed);
-  /* display: flex; */
 `;
 export default class Home extends React.Component {
   render() {
