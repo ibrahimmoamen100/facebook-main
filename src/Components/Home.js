@@ -15,7 +15,7 @@ const HomeSection = styled.div`
   max-width: 1920px;
   min-width: 280px;
   margin: auto;
-  padding: 5px;
+  padding: 20px;
   position: relative;
   margin-top: var(--mg-fixed);
 `;
