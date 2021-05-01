@@ -6,7 +6,6 @@
   /* width: 95%; */
   width: clamp(150px, 17.5rem, 23rem);
   margin: auto;
-  position: fixed;
 
   /* overflow: hidden; */
 }
